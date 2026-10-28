@@ -1,4 +1,87 @@
-hhhhhhhfssbn 
-Hello Git Version Control
-This is my new feature.
-viyaaa
+# Git Practical – Step-wise Commands
+
+## Step 1: Check Git
+
+git --version
+
+
+## Step 2: Create and open folder
+
+mkdir git-demo
+cd git-demo
+
+
+## Step 3: Initialize Git
+
+git init
+
+
+## Step 4: Configure Git
+
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+
+## Step 5: Create a file
+
+echo "Hello Git" > hello.txt
+
+
+## Step 6: Add file
+
+git add .
+
+
+## Step 7: Commit changes
+
+git commit -m "First commit"
+
+
+## Step 8: Check commit history
+
+git log --oneline
+
+## Step 9: Create branch
+
+git branch feature
+
+
+## Step 10: Switch branch
+
+git checkout feature
+
+
+## Step 11: Switch to main
+
+git checkout main
+
+
+## Step 12: Merge branch
+
+git merge feature
+
+
+## Step 13: Connect GitHub
+
+git remote add origin https://github.com/USERNAME/REPO.git
+
+
+## Step 14: Push to GitHub
+
+git push -u origin main
+
+
+## Step 15: Clone repository
+
+git clone https://github.com/USERNAME/REPO.git
+
+
+## Step 16: Pull changes
+
+git pull origin main
+
+
+## Step 17: Fetch changes
+```bash
+git fetch origin
+```
